@@ -29,7 +29,7 @@ const ITEMS = [
     external: true,
   },
   {
-    href: "https://github.com/Zetasab",
+    href: "https://github.com/Zetasab/Galleryz",
     label: "Ver GitHub",
     icon: GithubIcon,
     external: true,
