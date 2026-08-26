@@ -4,6 +4,7 @@ import { Nav } from "@/components/nav";
 import { InfoMenu } from "@/components/info-menu";
 import { VisitTracker } from "@/components/visit-tracker";
 import { Toaster } from "@/components/ui/sonner";
+import { SplashScreen } from "@/components/splash-screen";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${spaceGrotesk.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <SplashScreen />
         <Nav />
         {children}
         <InfoMenu />
