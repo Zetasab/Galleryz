@@ -35,7 +35,7 @@ const ITEMS = [
     external: true,
   },
   {
-    href: "mailto:cesarsobworkspace@gmail.com",
+    href: "mailto:cesarsobrinoarribas@gmail.com",
     label: "Enviar correo",
     icon: Mail,
     external: false,
