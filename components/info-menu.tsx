@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { SVGProps } from "react";
-import { Info, ShieldCheck, XIcon } from "lucide-react";
+import { Info, Mail, ShieldCheck, XIcon } from "lucide-react";
 
 function GithubIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -33,6 +33,12 @@ const ITEMS = [
     label: "Ver GitHub",
     icon: GithubIcon,
     external: true,
+  },
+  {
+    href: "mailto:cesarsobworkspace@gmail.com",
+    label: "Enviar correo",
+    icon: Mail,
+    external: false,
   },
   {
     href: "/politica-de-privacidad",
